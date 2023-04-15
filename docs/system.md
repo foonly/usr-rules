@@ -26,8 +26,8 @@ action.
 | Special        | 4*     |                                                  |
 
 The dice with * at the bottom of the table means that all dice must roll under the target number of
-the roll. This is a way for extra modifiers, like wound modifiers, to affect rolls further down than
-1. The GM might call for these difficulties in some circumstances.
+the roll. This is a way for extra modifiers, like wound modifiers to reduce rolls further down
+than 1 die. The GM might call for these difficulties in special circumstances.
 
 ## Attributes
 
@@ -51,22 +51,89 @@ skill bonus is half the value rounded down, as shown in this table.
 ### Example Attribute List
 
 #### Fortitude
+
 The strength and stamina of the character.
 
 #### Quickness
+
 The speed and agility of the character.
 
 #### Dexterity
+
 The fine motor skills of the character.
 
 #### Perception
+
 The ability of the character to notice things.
 
 #### Willpower
+
 The strength of will and determinism of the character.
 
 #### Charisma
+
 The charm and presence of the character.
 
 #### Intelligence
+
 The smarts and knowledge of the character.
+
+## Skills
+Skills are used as the base value you roll against when your character is performing an action 
+corresponding to that skill. Skills are always modified by an attribute bonus.  
+
+Skill values range from 0 to 4. A value of 0 means the character don't know the skill, it may 
+still be rolled against the pure attribute bonus if the GM allows.
+
+Skill, even more so than attributes are world dependent, but here are some example for different 
+settings. The groups are purely organisational, and have no function in the system. The value in 
+parentheses is the default attribute bonus to use.
+
+### Medieval Fantasy Example
+
+#### Combat
+ * Initiative ( Q )
+ * Armed Combat ( Q )
+ * Unarmed / Short Weapon Combat ( Q )
+ * Mounted Combat ( Q )
+ * Throwing ( P )
+ * Bow ( P )
+ * Crossbow ( P )
+ * Siege ( I )
+#### Movement
+ * Athletics ( Q )
+ * Stealth ( Q )
+ * Swimming ( F )
+ * Riding ( F )
+#### Interaction
+ * Character Judgement ( P )
+ * Leadership ( C )
+ * Persuasion ( C )
+ * Gambling ( W )
+ * Entertainment ( C )
+ * Intimidation ( W )
+ * Impersonation ( C )
+#### Crafts
+ * Healing ( I )
+ * Animals ( W )
+ * Smithing ( F )
+ * Carpentry ( F )
+ * Textiles ( D )
+ * Cooking ( C )
+ * Baking ( I )
+ * Herbalism ( I )
+#### Scholarship
+ * Navigation ( I )
+ * Surgery ( D )
+ * Alchemy ( I )
+ * Engineering ( I )
+ * Read/Write ( I )
+#### Outdoors
+ * Boatmanship ( F )
+ * Tracking ( P )
+ * Pathfinding ( P )
+ * Survival ( W )
+#### Rogue
+ * Forgery ( D )
+ * Lock picking ( D )
+ * Sleight of Hand ( C )
